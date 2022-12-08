@@ -1,12 +1,12 @@
 import React from "react"
 
-function Search({ filterText }) {
+function Search({ onFilterText }) {
 
     function handleSearch(event) {
-        filterText(event.target.value);
+        onFilterText(event.target.value);
     }
     return (
-        <div>
+        <div className="searchBar"> 
             <input type="text" onChange={handleSearch} placeholder="Search..." />
         </div>
     );

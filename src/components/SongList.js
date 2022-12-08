@@ -4,18 +4,19 @@ import Song from "./Song"
 const SongList = ({ songs }) => {
 
     return (
-        <table>
+        <table className="songTable">
             <tbody>
                 <tr>
-                    <th>song name</th>
-                    <th>Released</th>
-                    <th>Length</th>
-                    <th>album</th>
+                    <th> <a>Song Name</a> </th>
+                    <th> <a>Year Released</a> </th>
+                    <th> <a>Song Length</a> </th>
+                    <th> <a>Album Name</a> </th>
+
 
                 </tr>
                 {
                         songs.map(songs => {
-                        return <Song key={songs.song} song={songs} />;
+                        return <Song key={songs.id} song={songs} />;
                     })
                 }
             </tbody>

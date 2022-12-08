@@ -1,82 +1,112 @@
 * {
+    text-align: center;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+nav{
+    background-color: #333;
+    color:white;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.nav a {
+    color: inherit;
+
+}
+
+.songTable {
+  border-collapse: separate;
+  border-spacing: 10px ;
+}
+
+th {
+    padding: 15px ;
+}
+
+.songTable a {
+    color: gold;
+    text-decoration-line: underline;
+    font-size: larger;
+
 }
 
 body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background: #f3f4f6;
-    font-family: 'Montserrat', -apple-system, system-ui, BlinkMacSystemFont,
-        'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    background: #193d86;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 20px;
-    letter-spacing: 1px;
-    color: #778298;
+    letter-spacing: 2px;
+    color: #f5f6f9;
 }
 
-.btn {
-    letter-spacing: 1px;
+.newSongForm {
+    background-color:#193d86;
+
 }
 
-.login {
+/* .login {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
+} */
 
-.login .btn {
+/* .login .btn {
     font-size: 1.2rem;
-}
+} */
 
-.main {
+/* .main {
     width: 90%;
     margin: 2rem auto;
-}
+} */
 
-.form-control {
-    font-size: 1.2rem;
-}
+/* .form-control {
+    font-size: 30rem;
+} */
 
-.main-heading {
+/* .main-heading {
     margin: 2rem 0;
-}
+} */
 
-.hide {
+/* .hide {
     display: none;
-}
-
+} */
+/*
 .active {
-    border: 2px solid #566273;
-}
+    border: 2px solid #736556;
+} */
 
-.loading {
+/* .loading {
     display: flex;
     justify-content: center;
     font-weight: bold;
     letter-spacing: 1px;
     margin-top: 10%;
     font-size: 150%;
-}
+} */
 
-.load-more {
+/* .load-more {
     display: flex;
     justify-content: center;
     margin: 2rem 0;
-}
+} */
 
-.load-more button {
+/* .load-more button {
     border: none;
     color: #fff;
     border-radius: 10px;
     padding: 10px;
     letter-spacing: 1px;
     outline: none;
-}
+} */
 
-#loader {
+/* #loader {
     width: 100%;
     height: 100%;
     position: fixed;
@@ -86,9 +116,9 @@ body {
     background: linear-gradient(to bottom,
             rgba(0, 0, 0, 0.4),
             rgba(0, 0, 0, 0.4));
-}
+} */
 
-.message {
+/* .message {
     position: relative;
     font-size: 150%;
     top: 50%;
@@ -166,5 +196,4 @@ body {
 
     .main-heading {
         text-align: center;
-    }
-}
+    } */

@@ -1,220 +1,215 @@
 {
-    "songs": [
+  "songs": [
+    {
+      "id": 1,
+      "song_name": "The Embers of Fire",
+      "released": "2022",
+      "length": "1:35",
+      "album": "Vaxis II: A Window of the Waking Mind"
+    },
+    {
+      "id": 2,
+      "song_name": "Beautiful Losers",
+      "released": "2022",
+      "length": "3:35",
+      "album": "Vaxis II: A Window of the Waking Mind"
+    },
+    {
+      "id": 3,
+      "song_name": "Comatose",
+      "released": "2022",
+      "length": "3:10",
+      "album": "Vaxis II: A Window of the Waking Mind"
+    },
+    {
+      "id": 4,
+      "song_name": "Shoulders",
+      "released": "2022",
+      "length": "3:24",
+      "album": "Vaxis II: A Window of the Waking Mind"
+    },
+    {
+      "id": 5,
+      "song_name": "A Disappearing Act",
+      "released": "2022",
+      "length": "3:29",
+      "album": "Vaxis II: A Window of the Waking Mind"
+    },
+    {
+      "id": 6,
+      "song_name": "Love Murder One",
+      "released": "2022",
+      "length": "3:25",
+      "album": "Vaxis II: A Window of the Waking Mind"
+    },
+    {
+      "id": 7,
+      "song_name": "Blood",
+      "released": "2022",
+      "length": "3:56",
+      "album": "Vaxis II: A Window of the Waking Mind"
+    },
+    {
+      "id": 8,
+      "song_name": "The Liars Club",
+      "released": "2022",
+      "length": "3:48",
+      "album": "Vaxis II: A Window of the Waking Mind"
+    },
+    {
+      "id": 9,
+      "song_name": "Bad Man",
+      "released": "2022",
+      "length": "3:29",
+      "album": "Vaxis II: A Window of the Waking Mind"
+    },
+    {
+      "id": 10,
+      "song_name": "Our Love",
+      "released": "2022",
+      "length": "3:24",
+      "album": "Vaxis II: A Window of the Waking Mind"
+    },
+    {
+      "id": 11,
+      "song_name": "Island",
+      "released": "2015",
+      "length": "3:10",
+      "album": "The Color Before the Sun"
+    },
+    {
+      "id": 12,
+      "song_name": "Eraser",
+      "released": "2015",
+      "length": "3:25",
+      "album": "The Color Before the Sun"
+    },
+    {
+      "id": 13,
+      "song_name": "colors",
+      "released": "2015",
+      "length": "3:29",
+      "album": "The Color Before the Sun"
+    },
+    {
+      "id": 14,
+      "song_name": "Here to Mars",
+      "released": "2015",
+      "length": "4:00",
+      "album": "The Color Before the Sun"
+    },
+    {
+      "id": 15,
+      "song_name": "Ghost",
+      "released": "2015",
+      "length": "2:50",
+      "album": "The Color Before the Sun"
+    },
+    {
+      "id": 16,
+      "song_name": "Atlas",
+      "released": "2015",
+      "length": "3:35",
+      "album": "The Color Before the Sun"
+    },
+    {
+      "id": 17,
+      "song_name": "Young Love",
+      "released": "2015",
+      "length": "3:25",
+      "album": "The Color Before the Sun"
+    },
+    {
+      "id": 18,
+      "song_name": "You Got Spirit Kid",
+      "released": "2015",
+      "length": "3:29",
+      "album": "The Color Before the Sun"
+    },
+    {
+      "id": 19,
+      "song_name": "The Audience",
+      "released": "2015",
+      "length": "3:56",
+      "album": "The Color Before the Sun"
+    },
+    {
+      "id": 20,
+      "song_name": "Peace to the Mountain",
+      "released": "2015",
+      "length": "3:24",
+      "album": "The Color Before the Sun"
+    },
+    {
+      "id": 21,
+      "song_name": "The Ring in Return",
+      "released": "2003",
+      "length": "1:35",
+      "album": "In Keeping Secrets Of Silent Earth 3"
+    },
+    {
+      "id": 22,
+      "song_name": "In Keeping Secrets of Silent Earth: 3",
+      "released": "2003",
+      "length": "3:48",
+      "album": "In Keeping Secrets Of Silent Earth 3"
+    },
+    {
+      "id": 23,
+      "song_name": "Cuts Marked in the March of Men",
+      "released": "2003",
+      "length": "3:29",
+      "album": "In Keeping Secrets Of Silent Earth 3"
+    },
+    {
+      "id": 24,
+      "song_name": "Three Evils (Embodied in Love and Shadow)",
+      "released": "2003",
+      "length": "4:00",
+      "album": "In Keeping Secrets Of Silent Earth 3"
+    },
+    {
+      "id": 25,
+      "song_name": "The Crowing",
+      "released": "2003",
+      "length": "3:29",
+      "album": "In Keeping Secrets Of Silent Earth 3"
+    },
+    {
+      "id": 26,
+      "song_name": "Blood Red Summer",
+      "released": "2003",
+      "length": "3:25",
+      "album": "In Keeping Secrets Of Silent Earth 3"
+    },
+    {
+      "id": 27,
+      "song_name": "The Camper Velourium I: Faint of Hearts",
+      "released": "2003",
+      "length": "3:48",
+      "album": "In Keeping Secrets Of Silent Earth 3"
+    },
+    {
+      "id": 28,
+      "song_name": "The Camper Velourium II: Backend of Forever",
+      "released": "2003",
+      "length": "3:35",
+      "album": "In Keeping Secrets Of Silent Earth 3"
+    },
+    {
+      "id": 29,
+      "song_name": "The Camper Velourium III: Al the Killer",
+      "released": "2003",
+      "length": "3:24",
+      "album": "In Keeping Secrets Of Silent Earth 3"
+    },
+    {
+      "id": 30,
+      "song_name": "A Favor House Atlantic",
+      "released": "2003",
+      "length": "5:00",
+      "album": "In Keeping Secrets Of Silent Earth 3"
+    }
 
-        {
-            "id": 1,
-            "song_name":"The Embers of Fire",
-            "released":"2022",
-            "length":"1:35",
-            "album":"Vaxis II: A Window of the Waking Mind"
-
-
-        },
-        {
-            "id":2,
-            "song_name": "Beautiful Losers",
-            "released":"2022" ,
-            "length":"3:35",
-            "album":"Vaxis II: A Window of the Waking Mind"
-        },
-        {
-            "id":3 ,
-            "song_name": "Comatose" ,
-            "released":"2022" ,
-            "length":"3:10",
-            "album":"Vaxis II: A Window of the Waking Mind"
-        },
-        {
-            "id":4 ,
-            "song_name":"Shoulders" ,
-            "released":"2022" ,
-            "length":"3:24",
-            "album":"Vaxis II: A Window of the Waking Mind"
-
-        },
-        {
-            "id":5 ,
-            "song_name":"A Disappearing Act" ,
-            "released":"2022" ,
-            "length":"3:29",
-            "album":"Vaxis II: A Window of the Waking Mind"
-        },
-        {
-            "id":6 ,
-            "song_name": "Love Murder One",
-            "released":"2022" ,
-            "length":"3:25",
-            "album":"Vaxis II: A Window of the Waking Mind"
-        },
-        {
-            "id":7 ,
-            "song_name": "Blood",
-            "released":"2022" ,
-            "length": "3:56",
-            "album":"Vaxis II: A Window of the Waking Mind"
-
-        },
-        {
-            "id":8 ,
-            "song_name":"The Liars Club" ,
-            "released":"2022" ,
-            "length":"3:48",
-            "album":"Vaxis II: A Window of the Waking Mind"
-        },
-        {
-            "id": 9,
-            "song_name": "Bad Man",
-            "released": "2022",
-            "length": "3:29",
-            "album":"Vaxis II: A Window of the Waking Mind"
-        },
-        {
-            "id":10 ,
-            "song_name":"Our Love" ,
-            "released":"2022" ,
-            "length":"3:24",
-            "album":"Vaxis II: A Window of the Waking Mind"
-        },
-        {
-            "id":11 ,
-            "song_name":"Island" ,
-            "released": "2015",
-            "length":"3:10",
-            "album":"The Color Before the Sun"
-        },
-        {
-            "id": 12,
-            "song_name": "Eraser",
-            "released":"2015" ,
-            "length": "3:25",
-            "album":"The Color Before the Sun"
-        },
-        {
-            "id":13 ,
-            "song_name": "colors",
-            "released":"2015" ,
-            "length":"3:29",
-            "album":"The Color Before the Sun"
-        },
-        {
-            "id":14 ,
-            "song_name": "Here to Mars",
-            "released":"2015" ,
-            "length": "4:00",
-            "album":"The Color Before the Sun"
-        },
-        {
-            "id": 15,
-            "song_name": "Ghost",
-            "released": "2015",
-            "length":"2:50",
-            "album":"The Color Before the Sun"
-        },
-        {
-            "id":16 ,
-            "song_name":"Atlas" ,
-            "released":"2015" ,
-            "length":"3:35",
-            "album":"The Color Before the Sun"
-        },
-        {
-            "id": 17,
-            "song_name":"Young Love" ,
-            "released":"2015" ,
-            "length":"3:25",
-            "album":"The Color Before the Sun"
-        },
-        {
-            "id":18 ,
-            "song_name":"You Got Spirit Kid" ,
-            "released":"2015" ,
-            "length":"3:29",
-            "album":"The Color Before the Sun"
-        },
-        {
-            "id":19 ,
-            "song_name":"The Audience" ,
-            "released":"2015" ,
-            "length":"3:56",
-            "album":"The Color Before the Sun"
-        },
-        {
-            "id": 20,
-            "song_name":"Peace to the Mountain" ,
-            "released":"2015" ,
-            "length":"3:24",
-            "album":"The Color Before the Sun"
-        },
-        {
-            "id": 21,
-            "song_name": "The Ring in Return",
-            "released": "2003",
-            "length": "1:35",
-            "album":"In Keeping Secrets Of Silent Earth 3"
-        },
-        {
-            "id":22 ,
-            "song_name": "In Keeping Secrets of Silent Earth: 3",
-            "released":"2003" ,
-            "length":"3:48",
-            "album":"In Keeping Secrets Of Silent Earth 3"
-        },
-        {
-            "id":23 ,
-            "song_name": "Cuts Marked in the March of Men" ,
-            "released": "2003",
-            "length":"3:29",
-            "album":"In Keeping Secrets Of Silent Earth 3"
-        },
-        {
-            "id": 24,
-            "song_name": "Three Evils (Embodied in Love and Shadow)" ,
-            "released":"2003" ,
-            "length":"4:00",
-            "album":"In Keeping Secrets Of Silent Earth 3"
-        },
-        {
-            "id":25 ,
-            "song_name": "The Crowing" ,
-            "released":"2003" ,
-            "length":"3:29",
-            "album":"In Keeping Secrets Of Silent Earth 3"
-        },
-        {
-            "id":26 ,
-            "song_name": "Blood Red Summer" ,
-            "released": "2003",
-            "length":"3:25",
-            "album":"In Keeping Secrets Of Silent Earth 3"
-        },
-        {
-            "id":27 ,
-            "song_name": "The Camper Velourium I: Faint of Hearts",
-            "released":"2003" ,
-            "length":"3:48",
-            "album":"In Keeping Secrets Of Silent Earth 3"
-        },
-        {
-            "id":28 ,
-            "song_name": "The Camper Velourium II: Backend of Forever" ,
-            "released":"2003" ,
-            "length":"3:35",
-            "album":"In Keeping Secrets Of Silent Earth 3"
-        },
-        {
-            "id": 29,
-            "song_name": "The Camper Velourium III: Al the Killer" ,
-            "released": "2003",
-            "length":"3:24",
-            "album":"In Keeping Secrets Of Silent Earth 3"
-        },
-        {
-            "id": 30,
-            "song_name": "A Favor House Atlantic",
-            "released": "2003",
-            "length":"5:00",
-            "album":"In Keeping Secrets Of Silent Earth 3"
-        }
-    ]
-
+  ]
 }

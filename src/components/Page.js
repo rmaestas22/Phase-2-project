@@ -7,7 +7,7 @@ import SongList from "./SongList"
 function Page() {
 
     const [songs, setSongs] = useState([]);
-    const [filterText, setFilterText] = useState("");
+    const [filterText, setFilterText] = useState("e");
 
     useEffect(() => {
         fetch("http://localhost:4000/songs")
@@ -17,40 +17,41 @@ function Page() {
             })
     }, []);
 
-    function addNewSong(song) {
-        fetch("http://localhost:4000/songs", {
-            method: "POST",
-            headers: {
-                "Content-Type": "application/json"
-            },
-            body: JSON.stringify(song)
-        });
+    function addNewSong(newSong) {
 
-        setSongs([...songs, song])
+        setSongs([...songs, newSong])
     }
 
-     function onFilterText(text) {
-         setFilterText(text);
+    function onFilterText(text) {
+        setFilterText(text);
      }
+    //console.log()
+     const displaySongs = songs.filter(songs => {
+        //const{song_name, released, length, album} = song
+        const nsongname = (songs.song_name.toLowerCase().includes(filterText.toLowerCase())
 
-     const displaySongs = songs.filter(song => {
-     const searchLowerCase = filterText.toLowerCase();
-
-         return (
-                song.song_name.toLowerCase().includes(searchLowerCase)
-             || song.released.toLowerCase().includes(searchLowerCase)
-             || song.length.toLowerCase().includes(searchLowerCase)
-             || song.album.toLowerCase().includes(searchLowerCase)
-         );
-     });
+        //console.log(filterText)
+            || songs.released.toLowerCase().includes(filterText.toLowerCase())
+            || songs.length.toLowerCase().includes(filterText.toLowerCase())
+            || songs.album.toLowerCase().includes(filterText.toLowerCase()))
+        return nsongname
+     }
+     );
+     console.log(displaySongs)
+    function addNewSong(newSong){
+        setSongs(prevSongs =>{
+            return [...prevSongs,newSong]
+        })
+    }
 
     return (
         <div className="page">
+            
             <NewSongForm addNewSong={addNewSong} />
-            { <Search filterText={onFilterText} /> }
+            { <Search onFilterText={onFilterText} /> }
             <div className="content">
                 <SongList songs={displaySongs} />
-                
+
             </div>
         </div>
     )
