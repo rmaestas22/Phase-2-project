@@ -1,7 +1,12 @@
 import React, { useEffect, useState } from "react"
 import Search from "./Search"
 import NewSongForm from "./NewSongForm"
-import SongList from "./SongList"
+import AllSongList from "./AllSongList"
+import VaxisSongList from "./VaxisSongList"
+import ColorSongList from "./ColorSongList"
+import SecretSongList from "./SecretSongList"
+import {Route, Switch} from "react-router-dom"
+
 
 
 function Page() {
@@ -38,21 +43,31 @@ function Page() {
      }
      );
      console.log(displaySongs)
-    function addNewSong(newSong){
-        setSongs(prevSongs =>{
-            return [...prevSongs,newSong]
-        })
-    }
+
+
+
 
     return (
         <div className="page">
-            
-            <NewSongForm addNewSong={addNewSong} />
-            { <Search onFilterText={onFilterText} /> }
-            <div className="content">
-                <SongList songs={displaySongs} />
 
-            </div>
+            <NewSongForm addNewSong={addNewSong} />
+            <Search onFilterText={onFilterText} />
+            <Switch>
+                <Route exact path="/">
+                    <AllSongList songs={displaySongs} />
+                </Route>
+                <Route path="/vaxis">
+                    <VaxisSongList songs={displaySongs} />
+                </Route>
+                <Route path="/color">
+                    <ColorSongList songs={displaySongs} />
+                </Route>
+                <Route path="/secret">
+                    <SecretSongList songs={displaySongs} />
+               </Route>
+
+            </Switch>
+
         </div>
     )
 }

@@ -5,11 +5,12 @@ import { v4 as uuidv4 } from "uuid"
 
 function NewSongForm({ addNewSong, onSubmit }) {
  const [formData,setFormData]=useState({
-    song_name: "",
-    released: "",
-    length: "",
-    album: ""
- })
+    song_name:"",
+    released:"",
+    length:"",
+    album:""
+})
+
 
     const [formValues, setFormValues] = useState({})
 
@@ -35,8 +36,9 @@ function NewSongForm({ addNewSong, onSubmit }) {
 
         })
             .then(r => r.json())
-            .then(newSongFromServer => { onSubmit(newSongFromServer)
-            })
+            .then(newSongFromServer =>
+                addNewSong(newSongFromServer)
+            )
     }
 
 
@@ -44,7 +46,7 @@ function NewSongForm({ addNewSong, onSubmit }) {
         <div className="newSongForm">
             <h2>Add New Song</h2>
             <form onSubmit={handleFormSubmit}>
-                    <input type="text" name="song_name" placeholder="Song Name" value={formValues.song_name} onChange={handleFormValues}/>
+                <input type="text" name="song_name" placeholder="Song Name" value={formValues.song_name} onChange={handleFormValues}/>
                 <input type="text" name="released" placeholder="Year Released" value={formValues.released} onChange={handleFormValues} />
                 <input type="text" name="length" step="Length" placeholder="Length" value={formValues.length} onChange={handleFormValues} />
                 <input type="text" name="album" step="album" placeholder="Album Name" value={formValues.album} onChange={handleFormValues} />
